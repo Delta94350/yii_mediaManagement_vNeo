@@ -1,0 +1,654 @@
+2014/09/23 17:17:17 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "index".' in F:\www\yii\framework\web\CController.php:878
+Stack trace:
+#0 F:\www\yii\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#1 F:\www\yii_webapp\protected\controllers\SiteController.php(32): CController->render('index')
+#2 F:\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 F:\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 F:\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 F:\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 F:\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#7 F:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#8 F:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 F:\www\yii_webapp\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/
+---
+2014/09/24 10:21:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "indeX.php/gii".' in F:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('indeX.php/gii')
+#1 F:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\yii_webapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/indeX.php/gii
+---
+2014/09/24 10:46:37 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in F:\www\yii\framework\web\CController.php:336
+Stack trace:
+#0 F:\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 F:\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 F:\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 F:\www\yii\framework\web\CWebApplication.php(282): CController->run('checkLogin')
+#4 F:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/checkLogin')
+#5 F:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 F:\www\yii_webapp\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php/user/checkLogin
+HTTP_REFERER=http://localhost/index.php/user
+---
+2014/09/24 17:07:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "series".' in F:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('series')
+#1 F:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\yii_webapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/series
+HTTP_REFERER=http://localhost/index.php/user
+---
+2014/09/24 17:09:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "series".' in F:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('series')
+#1 F:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\yii_webapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/series
+---
+2014/09/24 17:09:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "series".' in F:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('series')
+#1 F:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\yii_webapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/series
+HTTP_REFERER=http://localhost/index.php/user
+---
+2014/09/24 17:09:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "series".' in F:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('series')
+#1 F:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\yii_webapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/series
+HTTP_REFERER=http://localhost/index.php/user
+---
+2014/09/24 17:16:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mangas".' in F:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('mangas')
+#1 F:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\yii_webapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/mangas
+HTTP_REFERER=http://localhost/index.php/user
+---
+2014/09/24 17:18:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "series".' in F:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('series')
+#1 F:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\yii_webapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/series
+---
+2014/09/24 17:18:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "series".' in F:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('series')
+#1 F:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\yii_webapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/series
+---
+2014/09/24 17:18:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "series".' in F:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('series')
+#1 F:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\yii_webapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/series
+---
+2014/09/24 17:18:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "series".' in F:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('series')
+#1 F:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\yii_webapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/series
+---
+2014/09/24 17:18:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mangas".' in F:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('mangas')
+#1 F:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\yii_webapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/mangas
+---
+2014/09/24 17:23:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "series".' in F:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('series')
+#1 F:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\yii_webapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/series
+---
+2014/09/24 17:23:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "series".' in F:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('series')
+#1 F:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\yii_webapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/series
+---
+2014/09/24 17:25:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "series".' in F:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('series')
+#1 F:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\yii_webapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/series
+---
+2014/09/24 17:25:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "series".' in F:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('series')
+#1 F:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\yii_webapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/series
+---
+2014/09/24 17:25:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "series".' in F:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('series')
+#1 F:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\yii_webapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/series
+---
+2014/09/24 17:26:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "series".' in F:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('series')
+#1 F:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\yii_webapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/series
+---
+2014/09/24 17:26:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "series".' in F:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('series')
+#1 F:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\yii_webapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/series
+---
+2014/09/24 17:27:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "series".' in F:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('series')
+#1 F:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\yii_webapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/series
+---
+2014/09/25 10:15:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "series".' in F:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('series')
+#1 F:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\yii_webapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/series
+---
+2014/09/25 10:16:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "series".' in F:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('series')
+#1 F:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\yii_webapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/series
+---
+2014/09/25 10:19:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "series".' in F:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('series')
+#1 F:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\yii_webapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/series
+---
+2014/09/25 10:21:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "series".' in F:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('series')
+#1 F:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\yii_webapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/series
+---
+2014/09/25 10:42:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "series".' in F:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('series')
+#1 F:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\yii_webapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/series
+---
+2014/09/25 10:42:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "series".' in F:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('series')
+#1 F:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\yii_webapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/series
+---
+2014/09/25 10:42:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index.html".' in F:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('index.html')
+#1 F:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\yii_webapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/index.html
+HTTP_REFERER=http://localhost/index.php/serie
+---
+2014/09/25 10:42:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index.html".' in F:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('index.html')
+#1 F:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\yii_webapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/index.html
+HTTP_REFERER=http://localhost/index.php/serie
+---
+2014/09/25 10:42:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "series".' in F:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('series')
+#1 F:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\yii_webapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/series
+HTTP_REFERER=http://localhost/index.php/index.html
+---
+2014/09/25 10:43:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "series".' in F:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('series')
+#1 F:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\yii_webapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/series
+HTTP_REFERER=http://localhost/index.php/index.html
+---
+2014/09/25 11:08:21 [error] [php] Undefined variable: status (F:\www\yii_webapp\protected\views\serie\index.php:20)
+Stack trace:
+#0 F:\www\yii\framework\web\CController.php(869): SerieController->renderFile()
+#1 F:\www\yii\framework\web\CController.php(782): SerieController->renderPartial()
+#2 F:\www\yii_webapp\protected\controllers\SerieController.php(16): SerieController->render()
+#3 F:\www\yii\framework\web\actions\CInlineAction.php(49): SerieController->actionIndex()
+#4 F:\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 F:\www\yii\framework\web\CController.php(286): SerieController->runAction()
+#6 F:\www\yii\framework\web\CController.php(265): SerieController->runActionWithFilters()
+#7 F:\www\yii\framework\web\CWebApplication.php(282): SerieController->run()
+#8 F:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 F:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 F:\www\yii_webapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/serie
+in F:\www\yii_webapp\protected\views\serie\index.php (20)
+in F:\www\yii_webapp\protected\controllers\SerieController.php (16)
+in F:\www\yii_webapp\index.php (13)
+2014/09/25 14:13:48 [error] [php] Undefined variable: stauts (F:\www\yii_webapp\protected\views\layouts\main.php:61)
+Stack trace:
+#0 F:\www\yii\framework\web\widgets\CContentDecorator.php(76): SerieController->renderFile()
+#1 F:\www\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#2 F:\www\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#3 F:\www\yii\framework\web\CBaseController.php(206): CContentDecorator->run()
+#4 F:\www\yii\framework\web\CBaseController.php(300): SerieController->endWidget()
+#5 F:\www\yii_webapp\protected\views\layouts\column1.php(6): SerieController->endContent()
+#6 F:\www\yii\framework\web\CBaseController.php(126): require()
+#7 F:\www\yii\framework\web\CBaseController.php(95): SerieController->renderInternal()
+#8 F:\www\yii\framework\web\CController.php(784): SerieController->renderFile()
+#9 F:\www\yii_webapp\protected\controllers\SerieController.php(16): SerieController->render()
+#10 F:\www\yii\framework\web\actions\CInlineAction.php(49): SerieController->actionIndex()
+#11 F:\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 F:\www\yii\framework\web\CController.php(286): SerieController->runAction()
+#13 F:\www\yii\framework\web\CController.php(265): SerieController->runActionWithFilters()
+#14 F:\www\yii\framework\web\CWebApplication.php(282): SerieController->run()
+#15 F:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 F:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 F:\www\yii_webapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/serie
+in F:\www\yii_webapp\protected\views\layouts\main.php (61)
+in F:\www\yii_webapp\protected\views\layouts\column1.php (6)
+in F:\www\yii_webapp\protected\controllers\SerieController.php (16)
+2014/09/26 15:18:36 [error] [exception.CException] exception 'CException' with message 'Property "Series.idSerie" is not defined.' in F:\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\www\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('idSerie')
+#1 F:\www\yii_webapp\protected\views\serie\index.php(19): CActiveRecord->__get('idSerie')
+#2 F:\www\yii\framework\web\CBaseController.php(126): require('F:\\www\\yii_weba...')
+#3 F:\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('F:\\www\\yii_weba...', Array, true)
+#4 F:\www\yii\framework\web\CController.php(869): CBaseController->renderFile('F:\\www\\yii_weba...', Array, true)
+#5 F:\www\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#6 F:\www\yii_webapp\protected\controllers\SerieController.php(16): CController->render('index', Array)
+#7 F:\www\yii\framework\web\actions\CInlineAction.php(49): SerieController->actionIndex()
+#8 F:\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 F:\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 F:\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 F:\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 F:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('serie')
+#13 F:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 F:\www\yii_webapp\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php/serie
+---
+2014/09/26 16:15:55 [error] [php] Missing argument 1 for CHttpRequest::getPost(), called in F:\www\yii_webapp\protected\controllers\SerieController.php on line 20 and defined (F:\www\yii\framework\web\CHttpRequest.php:197)
+Stack trace:
+#0 F:\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 F:\www\yii\framework\web\CController.php(286): SerieController->runAction()
+#2 F:\www\yii\framework\web\CController.php(265): SerieController->runActionWithFilters()
+#3 F:\www\yii\framework\web\CWebApplication.php(282): SerieController->run()
+#4 F:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 F:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 F:\www\yii_webapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/serie/updateSeason
+in F:\www\yii_webapp\protected\controllers\SerieController.php (20)
+in F:\www\yii_webapp\index.php (13)
+2014/09/26 16:17:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mangas".' in F:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('mangas')
+#1 F:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\yii_webapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/mangas
+---
+2014/09/26 16:20:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mangas".' in F:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('mangas')
+#1 F:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\yii_webapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/mangas
+---
+2014/09/26 16:48:30 [error] [exception.CException] exception 'CException' with message 'Property "Series.serie" is not defined.' in F:\www\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 F:\www\yii\framework\db\ar\CActiveRecord.php(161): CComponent->__set('serie', '2')
+#1 F:\www\yii_webapp\protected\controllers\SerieController.php(33): CActiveRecord->__set('serie', '2')
+#2 F:\www\yii\framework\web\actions\CInlineAction.php(49): SerieController->actionUpdateEpisode()
+#3 F:\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 F:\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 F:\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 F:\www\yii\framework\web\CWebApplication.php(282): CController->run('updateEpisode')
+#7 F:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('serie/updateEpi...')
+#8 F:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 F:\www\yii_webapp\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/serie/updateEpisode
+HTTP_REFERER=http://localhost/index.php/serie/
+---
+2014/09/26 16:49:52 [error] [exception.CException] exception 'CException' with message 'Property "Series.serie" is not defined.' in F:\www\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 F:\www\yii\framework\db\ar\CActiveRecord.php(161): CComponent->__set('serie', '24')
+#1 F:\www\yii_webapp\protected\controllers\SerieController.php(33): CActiveRecord->__set('serie', '24')
+#2 F:\www\yii\framework\web\actions\CInlineAction.php(49): SerieController->actionUpdateEpisode()
+#3 F:\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 F:\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 F:\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 F:\www\yii\framework\web\CWebApplication.php(282): CController->run('updateEpisode')
+#7 F:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('serie/updateEpi...')
+#8 F:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 F:\www\yii_webapp\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/serie/updateEpisode
+HTTP_REFERER=http://localhost/index.php/serie/
+---
+2014/10/02 11:41:09 [error] [exception.CException] exception 'CException' with message 'Property "Series.Title" is not defined.' in F:\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\www\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('Title')
+#1 F:\www\yii_webapp\protected\views\serie\details.php(11): CActiveRecord->__get('Title')
+#2 F:\www\yii\framework\web\CBaseController.php(126): require('F:\\www\\yii_weba...')
+#3 F:\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('F:\\www\\yii_weba...', Array, true)
+#4 F:\www\yii\framework\web\CController.php(869): CBaseController->renderFile('F:\\www\\yii_weba...', Array, true)
+#5 F:\www\yii\framework\web\CController.php(782): CController->renderPartial('details', Array, true)
+#6 F:\www\yii_webapp\protected\controllers\SerieController.php(50): CController->render('details', Array)
+#7 F:\www\yii\framework\web\actions\CInlineAction.php(49): SerieController->actionDetails()
+#8 F:\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 F:\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 F:\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 F:\www\yii\framework\web\CWebApplication.php(282): CController->run('details')
+#12 F:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('serie/details')
+#13 F:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 F:\www\yii_webapp\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php/serie/details?id=35
+HTTP_REFERER=http://localhost/index.php/serie
+---
+2014/10/02 12:01:08 [error] [exception.CException] exception 'CException' with message 'Property "Series.css" is not defined.' in F:\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\www\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('css')
+#1 F:\www\yii_webapp\protected\views\serie\details.php(6): CActiveRecord->__get('css')
+#2 F:\www\yii\framework\web\CBaseController.php(126): require('F:\\www\\yii_weba...')
+#3 F:\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('F:\\www\\yii_weba...', Array, true)
+#4 F:\www\yii\framework\web\CController.php(869): CBaseController->renderFile('F:\\www\\yii_weba...', Array, true)
+#5 F:\www\yii\framework\web\CController.php(782): CController->renderPartial('details', Array, true)
+#6 F:\www\yii_webapp\protected\controllers\SerieController.php(50): CController->render('details', Array)
+#7 F:\www\yii\framework\web\actions\CInlineAction.php(49): SerieController->actionDetails()
+#8 F:\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 F:\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 F:\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 F:\www\yii\framework\web\CWebApplication.php(282): CController->run('details')
+#12 F:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('serie/details')
+#13 F:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 F:\www\yii_webapp\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php/serie/details?id=35
+HTTP_REFERER=http://localhost/index.php/serie
+---
+2014/10/02 14:13:41 [error] [exception.CException] exception 'CException' with message 'Property "Series.torrent" is not defined.' in F:\www\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 F:\www\yii\framework\db\ar\CActiveRecord.php(161): CComponent->__set('torrent', '')
+#1 F:\www\yii_webapp\protected\controllers\SerieController.php(48): CActiveRecord->__set('torrent', '')
+#2 F:\www\yii\framework\web\actions\CInlineAction.php(49): SerieController->actionUpdate()
+#3 F:\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 F:\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 F:\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 F:\www\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#7 F:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('serie/update')
+#8 F:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 F:\www\yii_webapp\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/serie/update
+HTTP_REFERER=http://localhost/index.php/serie/details?id=35
+---
+2014/10/02 14:14:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "details".' in F:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('details')
+#1 F:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\yii_webapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/details?id=35
+HTTP_REFERER=http://localhost/index.php/serie
+---
+2014/10/02 16:20:18 [error] [php] Undefined index: fichier (F:\www\yii_webapp\protected\controllers\SerieController.php:142)
+Stack trace:
+#0 F:\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 F:\www\yii\framework\web\CController.php(286): SerieController->runAction()
+#2 F:\www\yii\framework\web\CController.php(265): SerieController->runActionWithFilters()
+#3 F:\www\yii\framework\web\CWebApplication.php(282): SerieController->run()
+#4 F:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 F:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 F:\www\yii_webapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/serie/update
+in F:\www\yii_webapp\protected\controllers\SerieController.php (142)
+in F:\www\yii_webapp\protected\controllers\SerieController.php (50)
+in F:\www\yii_webapp\index.php (13)
+2014/10/02 16:21:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/livreDetail".' in F:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/livreDeta...')
+#1 F:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\yii_webapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/admin/livreDetail?id=35
+HTTP_REFERER=http://localhost/index.php/serie/details?id=35
+---
+2014/10/02 16:22:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/livreDetail".' in F:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/livreDeta...')
+#1 F:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\yii_webapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/admin/livreDetail?id=35
+HTTP_REFERER=http://localhost/index.php/serie/details?id=35
+---
+2014/10/02 16:23:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/livreDetail".' in F:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/livreDeta...')
+#1 F:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\yii_webapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/admin/livreDetail?id=35
+HTTP_REFERER=http://localhost/index.php/serie/details?id=35
+---
+2014/10/02 16:23:57 [error] [php] Undefined variable: getId (F:\www\yii_webapp\protected\controllers\SerieController.php:187)
+Stack trace:
+#0 F:\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 F:\www\yii\framework\web\CController.php(286): SerieController->runAction()
+#2 F:\www\yii\framework\web\CController.php(265): SerieController->runActionWithFilters()
+#3 F:\www\yii\framework\web\CWebApplication.php(282): SerieController->run()
+#4 F:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 F:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 F:\www\yii_webapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/serie/update
+in F:\www\yii_webapp\protected\controllers\SerieController.php (187)
+in F:\www\yii_webapp\protected\controllers\SerieController.php (50)
+in F:\www\yii_webapp\index.php (13)
+2014/10/03 13:12:15 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée.
+' in F:\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 F:\www\yii\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 F:\www\yii\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 F:\www\yii\framework\base\CModule.php(387): CDbConnection->init()
+#3 F:\www\yii\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 F:\www\yii\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 F:\www\yii\framework\db\ar\CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 F:\www\yii\framework\db\ar\CActiveRecord.php(1469): CActiveRecord->getCommandBuilder()
+#7 F:\www\yii_webapp\protected\controllers\SerieController.php(13): CActiveRecord->findAll()
+#8 F:\www\yii\framework\web\actions\CInlineAction.php(49): SerieController->actionIndex()
+#9 F:\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 F:\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 F:\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 F:\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#13 F:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('serie')
+#14 F:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 F:\www\yii_webapp\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php/serie
+---
+2014/10/03 13:17:56 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in F:\www\yii\framework\web\CController.php:336
+Stack trace:
+#0 F:\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 F:\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 F:\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 F:\www\yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#4 F:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('serie/delete')
+#5 F:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 F:\www\yii_webapp\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php/serie/delete
+HTTP_REFERER=http://localhost/index.php/serie
+---
+2014/10/13 13:28:27 [error] [php] Undefined variable: mangas (F:\www\yii_webapp\protected\views\serie\index.php:23)
+Stack trace:
+#0 F:\www\yii\framework\web\CController.php(869): SerieController->renderFile()
+#1 F:\www\yii\framework\web\CController.php(782): SerieController->renderPartial()
+#2 F:\www\yii_webapp\protected\controllers\SerieController.php(20): SerieController->render()
+#3 F:\www\yii\framework\web\actions\CInlineAction.php(49): SerieController->actionIndex()
+#4 F:\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 F:\www\yii\framework\web\CController.php(286): SerieController->runAction()
+#6 F:\www\yii\framework\web\CController.php(265): SerieController->runActionWithFilters()
+#7 F:\www\yii\framework\web\CWebApplication.php(282): SerieController->run()
+#8 F:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 F:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 F:\www\yii_webapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/serie
+in F:\www\yii_webapp\protected\views\serie\index.php (23)
+in F:\www\yii_webapp\protected\controllers\SerieController.php (20)
+in F:\www\yii_webapp\index.php (13)
+2014/10/13 13:31:08 [error] [php] Undefined variable: manga (F:\www\yii_webapp\protected\views\manga\details.php:5)
+Stack trace:
+#0 F:\www\yii\framework\web\CController.php(869): MangaController->renderFile()
+#1 F:\www\yii\framework\web\CController.php(782): MangaController->renderPartial()
+#2 F:\www\yii_webapp\protected\controllers\MangaController.php(79): MangaController->render()
+#3 F:\www\yii\framework\web\actions\CInlineAction.php(49): MangaController->actionDetails()
+#4 F:\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 F:\www\yii\framework\web\CController.php(286): MangaController->runAction()
+#6 F:\www\yii\framework\web\CController.php(265): MangaController->runActionWithFilters()
+#7 F:\www\yii\framework\web\CWebApplication.php(282): MangaController->run()
+#8 F:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 F:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 F:\www\yii_webapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/manga/details?id=6
+in F:\www\yii_webapp\protected\views\manga\details.php (5)
+in F:\www\yii_webapp\protected\controllers\MangaController.php (79)
+in F:\www\yii_webapp\index.php (13)
+2014/10/13 13:31:47 [error] [php] Undefined variable: serie (F:\www\yii_webapp\protected\views\manga\details.php:6)
+Stack trace:
+#0 F:\www\yii\framework\web\CController.php(869): MangaController->renderFile()
+#1 F:\www\yii\framework\web\CController.php(782): MangaController->renderPartial()
+#2 F:\www\yii_webapp\protected\controllers\MangaController.php(79): MangaController->render()
+#3 F:\www\yii\framework\web\actions\CInlineAction.php(49): MangaController->actionDetails()
+#4 F:\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 F:\www\yii\framework\web\CController.php(286): MangaController->runAction()
+#6 F:\www\yii\framework\web\CController.php(265): MangaController->runActionWithFilters()
+#7 F:\www\yii\framework\web\CWebApplication.php(282): MangaController->run()
+#8 F:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 F:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 F:\www\yii_webapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/manga/details?id=6
+in F:\www\yii_webapp\protected\views\manga\details.php (6)
+in F:\www\yii_webapp\protected\controllers\MangaController.php (79)
+in F:\www\yii_webapp\index.php (13)
+2014/10/13 13:38:30 [error] [php] Creating default object from empty value (F:\www\yii_webapp\protected\controllers\SerieController.php:104)
+Stack trace:
+#0 F:\www\yii\framework\web\CController.php(286): SerieController->runAction()
+#1 F:\www\yii\framework\web\CController.php(265): SerieController->runActionWithFilters()
+#2 F:\www\yii\framework\web\CWebApplication.php(282): SerieController->run()
+#3 F:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 F:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 F:\www\yii_webapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/serie/updateEpisode
+in F:\www\yii_webapp\protected\controllers\SerieController.php (104)
+in F:\www\yii_webapp\index.php (13)
+2014/10/14 16:05:41 [error] [exception.CException] exception 'CException' with message 'Property "CHttpRequest.cookie" is not defined.' in F:\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\www\yii_webapp\protected\views\layouts\main.php(110): CComponent->__get('cookie')
+#1 F:\www\yii\framework\web\CBaseController.php(126): require('F:\\www\\yii_weba...')
+#2 F:\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('F:\\www\\yii_weba...', Array, true)
+#3 F:\www\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('F:\\www\\yii_weba...', Array, true)
+#4 F:\www\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#5 F:\www\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#6 F:\www\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#7 F:\www\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#8 F:\www\yii_webapp\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#9 F:\www\yii\framework\web\CBaseController.php(126): require('F:\\www\\yii_weba...')
+#10 F:\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('F:\\www\\yii_weba...', Array, true)
+#11 F:\www\yii\framework\web\CController.php(784): CBaseController->renderFile('F:\\www\\yii_weba...', Array, true)
+#12 F:\www\yii_webapp\protected\controllers\SerieController.php(20): CController->render('index', Array)
+#13 F:\www\yii\framework\web\actions\CInlineAction.php(49): SerieController->actionIndex()
+#14 F:\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 F:\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 F:\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 F:\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#18 F:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('serie')
+#19 F:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 F:\www\yii_webapp\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/index.php/serie
+---
+2014/10/15 15:14:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "logout".' in F:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('logout')
+#1 F:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\yii_webapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/logout
+---
+2014/10/15 15:19:50 [error] [php] include(YYii.php): failed to open stream: No such file or directory (F:\www\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 F:\www\yii_webapp\protected\controllers\SiteController.php(30): spl_autoload_call()
+#1 F:\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 F:\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 F:\www\yii\framework\web\CController.php(286): SiteController->runAction()
+#4 F:\www\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 F:\www\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#6 F:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 F:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 F:\www\yii_webapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in F:\www\yii_webapp\protected\controllers\SiteController.php (30)
+in F:\www\yii_webapp\index.php (13)

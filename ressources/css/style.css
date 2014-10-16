@@ -1,0 +1,19 @@
+input[type=number] {
+    border: 0px solid;
+}
+/* blockUI addon */
+div.growlUI { background: url(check48.png) no-repeat 10px 10px; padding-top:20px; }
+div.growlUI h3, div.growlUI h4 {
+    color: white; padding: 5px 5px 5px 75px; text-align: left
+}
+
+img {
+    width: auto;
+    max-height: 350px;
+}
+
+.quickImage {
+    width: auto;
+    max-height: 200px;
+}
+/** * **/ 
