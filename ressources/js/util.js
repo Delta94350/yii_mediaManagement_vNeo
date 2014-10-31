@@ -105,7 +105,7 @@ function showModalBlock(element, yesNo, yesFunction) {
 
 function showQuickImage(image, type) {
     if(image != null && image != "") {
-        $('#quickImage').html('<img class="quickImage" src="/ressources/upload/images/'+type+'/'+image+'" >');
+        $('#quickImage').html('<img style="max-width=30px;" class="quickImage" src="/ressources/upload/images/'+type+'/'+image+'" >');
     }
 }
 

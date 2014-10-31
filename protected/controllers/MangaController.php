@@ -125,7 +125,7 @@ class MangaController extends Controller
              * Definition des constantes / tableaux et variables
              *************************************************************/
             // Constantes
-            define('TARGET', 'ressources/upload/images/mangas');    // Repertoire cible
+            define('TARGET', 'ressources/upload/images/mangas/');    // Repertoire cible
             define('MAX_SIZE', 409600);    // Taille max en octets du fichier
             define('WIDTH_MAX', 1920);    // Largeur max de l'image en pixels
             define('HEIGHT_MAX', 1080);    // Hauteur max de l'image en pixels
